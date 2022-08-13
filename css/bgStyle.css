@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  margin: 0px;
+}
+body {
+  height: 100%;
+  margin: 0px;
+}
+.no {
+  background-size: cover;
+}
+.stay {
+  background-size: cover;
+}
+.stay1 {
+  background-size: cover;
+}
+.loginBg {
+  background-image: url(/img/interstella.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 840px) {
+  .loginBg {
+    background-position: 90% 50%;
+    background-size: 160vw auto;
+    background-color: #030C12;
+  }
+}
