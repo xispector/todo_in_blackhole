@@ -72,6 +72,10 @@ main div {
     text-align: left;
     font-size: 2vw;
 }
+#toDoList button {
+    font-size: 2vw;
+    background-color: transparent;
+}
 
 footer {
     display: flex;
