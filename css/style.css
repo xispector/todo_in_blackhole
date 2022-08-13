@@ -75,6 +75,7 @@ main div {
 #toDoList button {
     font-size: 2vw;
     background-color: transparent;
+    border: 0;
 }
 
 footer {
