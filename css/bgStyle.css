@@ -16,7 +16,7 @@ body {
   background-size: cover;
 }
 .loginBg {
-  background-image: url(/img/interstella.jpg);
+  background-image: url(./img/interstella.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
