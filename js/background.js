@@ -7,7 +7,7 @@ function mainBg () {
     const number = Math.floor(Math.random()*Images.length);
     const chosenImage = Images[number];
   
-    const imageLink = `../img/${chosenImage}`;
+    const imageLink = `./img/${chosenImage}`;
     body.style.backgroundImage = `url(${imageLink})`;
     body.className = chosenImage.slice(0,chosenImage.search(/\./))
     body.style.backgroundRepeat = "no-repeat";
